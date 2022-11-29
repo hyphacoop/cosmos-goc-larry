@@ -1,6 +1,6 @@
 # Interchain Security: Larry Chain
 
-This repo houses code for implementing Interchain Security and is based off of . The repo is currently a WIP and targetting v1 of Interchain Security. For more details on the Interchain Security protocol, take a look at the [specification](https://github.com/cosmos/ibc/blob/main/spec/app/ics-028-cross-chain-validation/README.md).
+This repo houses code for implementing Interchain Security and is based off of [this one](https://github.com/cosmos/interchain-security). The repo is currently a WIP and targetting v1 of Interchain Security. For more details on the Interchain Security protocol, take a look at the [specification](https://github.com/cosmos/ibc/blob/main/spec/app/ics-028-cross-chain-validation/README.md).
 
 CCV stands for cross chain validation and refers to the subset of Interchain Security related to the staking and slashing communication between the provider and consumer blockchains. The provider blockchain communicates staking changes to consumer blockchain(s), while the consumer blockchain may communicate slashing evidence to the provider blockchain.
 
